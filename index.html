@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glassmorphism Login Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Login</h1>
+        <form action="" method="get" autocomplete="on">
+          <div>
+            <input
+            type="email"
+            id="em"
+            name="email"
+            required
+            autocomplete="email"
+            placeholder=" "
+            />
+            <label for="em">Enter your email</label>
+          </div>
+          <div>
+            <input
+            type="password"
+            id="pass"
+            name="password"
+            required
+            autocomplete="current-password"
+            placeholder=" "
+            />
+            <label for="pass">Enter your password</label>
+          </div>
+          <div class="forgot-password">
+            <div>
+              <input type="checkbox" name="remember" id="rem" />
+              <label for="rem">Remember me</label>
+            </div>
+            <p><a href="#" target="_blank">Forgot password?</a></p>
+          </div>
+          <button type="submit" class="login-btn">Log In</button>
+          <p>Don't have an account? <a href="#" target="_blank">Register</a></p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
